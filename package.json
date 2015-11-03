@@ -1,0 +1,38 @@
+{
+  "name": "VulnViz",
+  "version": "1.0.0",
+  "description": "nodejs app cmsc396 research",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VulnerabilityViz/VizSite.git"
+  },
+  "author": "Too many cooks",
+  "license": "Swag",
+  "bugs": {
+    "url": "https://github.com/VulnerabilityViz/VizSite/issues"
+  },
+  "homepage": "https://github.com/VulnerabilityViz/VizSite",
+  "dependencies": {
+    "async": "^1.4.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.13.2",
+    "connect-mongo": "^0.8.2",
+    "cookie-parser": "^1.3.5",
+    "express": "^4.13.1",
+    "express-session": "^1.11.3",
+    "flash": "^1.1.0",
+    "mongoose": "^4.1.0",
+    "mongoose-schema-extend": "^0.1.7",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^1.0.1",
+    "passport.socketio": "^3.5.1",
+    "serve-favicon": "^2.3.0",
+    "socket.io": "^1.3.6"
+  }
+}

@@ -1,0 +1,39 @@
+#content {
+  background-image: url('/static/img/coffee.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%; 
+  background-position-x: center;
+}
+
+#signin-grid {
+  margin: 0px 0px 0px 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#signin-container {
+  max-width: 450px;
+  top: -7em
+}
+
+#signin {
+  background: rgba(255,255,255,0.5);
+  max-width: 500px;
+  border-radius: 3px;
+}
+
+#signin-head {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 30px #000;
+  margin: 15px auto 30px auto;
+}
+
+.ui.checkbox label {
+  color: #ddd;
+}
+
+

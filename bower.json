@@ -1,0 +1,22 @@
+{
+  "name": "nodepos",
+  "version": "1.0.0",
+  "homepage": "https://github.com/zxlin/nodepos",
+  "authors": [
+    "Zhi Xiang Lin <zhixiang94@gmail.com>"
+  ],
+  "license": "None",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "toastr": "~2.1.1",
+    "socket.io-client": "~1.3.5",
+    "semantic": "~2.0.8"
+  }
+}

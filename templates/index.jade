@@ -1,0 +1,24 @@
+extends layout
+
+block scripts
+  link(rel='stylesheet', href='/static/css/index.css')
+  script(src='/static/js/index.js')
+  title Home | #{APP_NAME}
+
+block content
+  div#content
+    div.ui.middle.aligned.center.aligned.grid#signin-grid
+      div.column#signin-container
+        div.ui.center.aligned.form.segment#signin
+          h2.center.aligned.header#signin-head Sign in
+          div.field
+            div.ui.left.icon.input
+              input#signin-username(type='text', name='username', placeholder='username')
+              i.user.icon
+          div.field 
+            div.ui.left.icon.input
+              input#signin-password(type='password', name='password', placeholder='password')
+              i.lock.icon
+          div.field
+            button.ui.submit.button.large.fluid.blue#signin-submit sign in
+        
