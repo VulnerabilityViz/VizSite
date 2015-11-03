@@ -1,7 +1,7 @@
 {
-  "name": "nodepos",
+  "name": "VulnViz",
   "version": "1.0.0",
-  "homepage": "https://github.com/zxlin/nodepos",
+  "homepage": "https://github.com/VulnerabilityViz",
   "authors": [
     "Zhi Xiang Lin <zhixiang94@gmail.com>"
   ],
