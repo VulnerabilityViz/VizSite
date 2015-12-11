@@ -15,16 +15,16 @@ var BaseModel = require('./lib/model'),
 var DataSchema = BaseModel.extend({
   distro: {
     type : String,
-    require : true
+    require : true,
+    index : true
   },
 	source: {
-    type : String
+    type : String,
+    index : true
   }, 
   version: {
-    type : String
-  },
-  upstream_version : {
-    type : String
+    type : String,
+    index : true
   },
   branch : {
     type : String
@@ -33,23 +33,13 @@ var DataSchema = BaseModel.extend({
     type : String
   },
   date : {
-    type : Date
-  },
-  previous_source : {
-    type : String
-  },
-  previous_version: {
-    type : String
+    type : Date,
+    index : true
   },
   cve_list : [{
-    cve : {
-      type : String
-    }
+    type : String
   }], 
   maintainer : {
-    type : String
-  },
-  comments : {
     type : String
   }
 });
