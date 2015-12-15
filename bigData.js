@@ -175,14 +175,21 @@ async.waterfall([
   function(d) {
     console.log('[Info] Begin aggregation');
     Data.aggregate({ 
+      $unwind : '$cve_list'
+    },
+    {
+      $match : {
+        cve_list : {
+          $ne : ''
+        }
+      }
+    },
+    {
       $project : {
         year : {
           $year : '$date'
         },
         urgency : '$urgency',
-        num_cve : {
-          $size : '$cve_list'
-        },
         distro : '$distro'
       }
     },
@@ -205,7 +212,7 @@ async.waterfall([
     console.log('[Error] occurred: ' + err);
   } else {
     console.log('[Info] Done');
-    jsonfile.writeFile('./temp.json', result, {spaces : 2}, function(err) {
+    jsonfile.writeFile('./temp2.json', result, {spaces : 2}, function(err) {
       console.log('Writing to disk with error: ' + err);
     });
   }
