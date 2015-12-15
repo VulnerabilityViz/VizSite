@@ -37,7 +37,7 @@ d3.json(dataFile, function(error, root) {
 
   var path = g.append("path")
     .attr("d", arc)
-    .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+    .style("fill", function(d) { return color((d.children ? d : d.parent + '123').name); })
     .on("click", click);
 
   var text = g.append("text")
