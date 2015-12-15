@@ -60,6 +60,10 @@ module.exports = function(app, passport) {
       redirect : '/redirect'
     }); 
   });
+  
+  app.get('/vulnerability', function(req, res) {
+    generatePage(res, req, 'vuln');
+  });
 
   // Logout feature
   app.get('/logout', function(req, res) {

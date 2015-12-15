@@ -1,0 +1,17 @@
+{
+  "name" : "Distribution",
+  "children" : [
+    {
+      "name" : "Ubuntu",
+      "size" : 500
+    },
+    {
+      "name" : "Debian",
+      "size" : 500
+    }, 
+    {
+      "name" : "Fedora",
+      "size" : 300
+    }
+  ]
+}

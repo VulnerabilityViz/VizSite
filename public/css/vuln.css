@@ -1,0 +1,13 @@
+body {
+  background: #F0F8FF;
+}
+
+path {
+  stroke: #fff;
+  fill-rule: evenodd;
+}
+
+text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
