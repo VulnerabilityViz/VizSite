@@ -44,4 +44,7 @@ var DataSchema = BaseModel.extend({
   }
 });
 
+DataSchema.index({distro: 1, date: 1 });
+DataSchema.index({distro: 1, source: 1 });
+
 var Data = mongoose.model('Data', DataSchema);
