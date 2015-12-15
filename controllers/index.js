@@ -65,6 +65,10 @@ module.exports = function(app, passport) {
     generatePage(res, req, 'vuln');
   });
 
+  app.get('/vulnerability/live', function(req, res) {
+    generatePage(res, req, 'live');
+  });
+
   // Logout feature
   app.get('/logout', function(req, res) {
     req.logout();

@@ -3,7 +3,9 @@ var socketio = require('socket.io'),
     cookieParser = require('cookie-parser'),
     config = require('../config'),
     fs = require('fs'),
-    async = require('async');
+    async = require('async'),
+    mongoose = require('mongoose'),
+    Data = mongoose.model('Data');
 
 /*
  * app is the express server passed in from server.js
@@ -34,6 +36,18 @@ module.exports.listen = function(app) {
     console.log('Client connected to /');
     socket.on('test', function(data) {
       console.log('namespace / :' + data);
+    });
+
+
+    socket.on('Big Data', function() {
+      // send back big data
+      Data.processBigData(function(err, data) {
+        if (err) {
+          console.log('[ERROR] Big Data Error');
+        } else {
+          socket.emit('Big Data', data);
+        }
+      });
     });
   });
 
