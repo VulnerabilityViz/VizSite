@@ -41,6 +41,16 @@ var DataSchema = BaseModel.extend({
   }], 
   maintainer : {
     type : String
+  },
+  parsed_cve_list : [{
+    type: String
+  }],
+  is_vulnerable : {
+    type: Boolean
+  },
+  parsed_version : {
+    type: String,
+    index: true
   }
 });
 

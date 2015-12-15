@@ -84,27 +84,38 @@ query.exec(function(err, docs) {
 
   var query_stream = Data.find({
     distro: distro,
-    // source: "mailman" // cheating for speed
-  }, 'source version date').stream();
+    source: "gnash" // cheating for speed
+  }).stream();
 
-  query_stream.on('data', function(docs) {
-    counter += 1;
-    // console.log(fix_lookup[docs.source]);
-    var version = version_cleaner.cleanVersion(docs.version);
+  query_stream.on('data', function(doc) {
+    // console.log(fix_lookup[doc.source]);
+    var version = version_cleaner.cleanVersion(doc.version);
     // if version cleaned
     if(version) {
       // if this source even has any CVEs on record
-      if(fix_lookup[docs.source] != undefined && Object.keys(fix_lookup[docs.source]).length > 0) {
+      if(fix_lookup[doc.source] != undefined && Object.keys(fix_lookup[doc.source]).length > 0) {
         // Find CVEs that affect this version
-        cves = getCVEs(version, docs.source);
+        cves = getCVEs(version, doc.source);
         // If any found, print it's vulnerable!
         if(cves.length == 0) {
-          console.log(docs.source + " is NOT vulnerable for version " + docs.version + " (parsed into " + version + ") on " + docs.date);
-          // console.log(cves);  
+          console.log(doc.source + " is NOT vulnerable for version " + doc.version + " (parsed into " + version + ") on " + doc.date);
+          console.log(cves);
         } else {
-          // console.log(docs.source + " is vulnerable for version " + docs.version + " (parsed into " + version + ") with " + cves.length + " CVEs on " + docs.date);
-          // console.log(cves);  
+          console.log(doc.source + " is vulnerable for version " + doc.version + " (parsed into " + version + ") with " + cves.length + " CVEs on " + doc.date);
+          console.log(cves);  
+
         }
+        
+        // Add the new data fields
+        // doc.parsed_cve_list = cves;
+        // doc.is_vulnerable = (cves.length != 0);
+        // doc.parsed_version = version;
+
+        // console.log(doc);
+        // doc.save(function(err, done) {
+        //   counter += 1;
+        //   if (counter % 1000 == 0) console.log(counter + " docs updated");
+        // });
       }
     }
   });
@@ -113,7 +124,7 @@ query.exec(function(err, docs) {
     console.log(error);
   });
 
-  query_stream.on('done', function() {
+  query_stream.on('close', function() {
     mongoose.disconnect();
   });
 
