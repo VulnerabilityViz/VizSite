@@ -8,4 +8,21 @@ block scripts
   title Vulnerability Visualization | #{APP_NAME}
 
 block content
-   div#content 
+    div#content 
+    div#stats
+      div.ui.three.statistics
+        div.statistic
+          div.value 
+            i.database.icon
+            span 10,067,013
+          div.label Total Database Entries
+        div.statistic
+          div.value 
+            i.tag.icon 
+            span 630,484
+          div.label Reported CVEs
+        div.statistic
+          div.value 
+            i.archive.icon
+            span 72,202
+          div.label Unique Software

@@ -11,3 +11,8 @@ text {
   font-family: Arial, sans-serif;
   font-size: 12px;
 }
+
+#stats {
+  display: block;
+  margin: auto;
+}
