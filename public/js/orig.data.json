@@ -2,7 +2,7 @@
   "name": "CVE Frequency",
   "children": [
     {
-      "name": "2002",
+      "name": "2000",
       "children": [
         {
           "name": "debian",
@@ -11,13 +11,260 @@
               "name": "high",
               "children": [
                 {
-                  "name": "47 CVEs",
-                  "size": 47
+                  "name": "1286 CVEs",
+                  "size": 1286
+                }
+              ]
+            },
+            {
+              "name": "low",
+              "children": [
+                {
+                  "name": "42193 CVEs",
+                  "size": 42193
                 }
               ]
             },
             {
               "name": "medium",
+              "children": [
+                {
+                  "name": "1598 CVEs",
+                  "size": 1598
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "10 CVEs",
+                  "size": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fedora",
+          "children": [
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "4827 CVEs",
+                  "size": 4827
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ubuntu",
+          "children": [
+            {
+              "name": "high",
+              "children": [
+                {
+                  "name": "5509 CVEs",
+                  "size": 5509
+                }
+              ]
+            },
+            {
+              "name": "low",
+              "children": [
+                {
+                  "name": "141358 CVEs",
+                  "size": 141358
+                }
+              ]
+            },
+            {
+              "name": "medium",
+              "children": [
+                {
+                  "name": "5284 CVEs",
+                  "size": 5284
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "35 CVEs",
+                  "size": 35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2001",
+      "children": [
+        {
+          "name": "debian",
+          "children": [
+            {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "2 CVEs",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "emergency",
+              "children": [
+                {
+                  "name": "2 CVEs",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "high",
+              "children": [
+                {
+                  "name": "3325 CVEs",
+                  "size": 3325
+                }
+              ]
+            },
+            {
+              "name": "low",
+              "children": [
+                {
+                  "name": "75030 CVEs",
+                  "size": 75030
+                }
+              ]
+            },
+            {
+              "name": "medium",
+              "children": [
+                {
+                  "name": "3112 CVEs",
+                  "size": 3112
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "10 CVEs",
+                  "size": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fedora",
+          "children": [
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "5308 CVEs",
+                  "size": 5308
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ubuntu",
+          "children": [
+            {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "3 CVEs",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "high",
+              "children": [
+                {
+                  "name": "17419 CVEs",
+                  "size": 17419
+                }
+              ]
+            },
+            {
+              "name": "low",
+              "children": [
+                {
+                  "name": "237215 CVEs",
+                  "size": 237215
+                }
+              ]
+            },
+            {
+              "name": "medium",
+              "children": [
+                {
+                  "name": "14301 CVEs",
+                  "size": 14301
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2002",
+      "children": [
+        {
+          "name": "debian",
+          "children": [
+            {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "88 CVEs",
+                  "size": 88
+                }
+              ]
+            },
+            {
+              "name": "high",
+              "children": [
+                {
+                  "name": "4347 CVEs",
+                  "size": 4347
+                }
+              ]
+            },
+            {
+              "name": "low",
+              "children": [
+                {
+                  "name": "68124 CVEs",
+                  "size": 68124
+                }
+              ]
+            },
+            {
+              "name": "medium",
+              "children": [
+                {
+                  "name": "3177 CVEs",
+                  "size": 3177
+                }
+              ]
+            },
+            {
+              "name": "unknown",
               "children": [
                 {
                   "name": "5 CVEs",
@@ -34,8 +281,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "4 CVEs",
-                  "size": 4
+                  "name": "8887 CVEs",
+                  "size": 8887
                 }
               ]
             }
@@ -45,11 +292,29 @@
           "name": "ubuntu",
           "children": [
             {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "261 CVEs",
+                  "size": 261
+                }
+              ]
+            },
+            {
               "name": "high",
               "children": [
                 {
-                  "name": "42 CVEs",
-                  "size": 42
+                  "name": "39421 CVEs",
+                  "size": 39421
+                }
+              ]
+            },
+            {
+              "name": "low",
+              "children": [
+                {
+                  "name": "260609 CVEs",
+                  "size": 260609
                 }
               ]
             },
@@ -57,8 +322,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "169 CVEs",
-                  "size": 169
+                  "name": "17001 CVEs",
+                  "size": 17001
                 }
               ]
             }
@@ -73,11 +338,20 @@
           "name": "debian",
           "children": [
             {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "31 CVEs",
+                  "size": 31
+                }
+              ]
+            },
+            {
               "name": "high",
               "children": [
                 {
-                  "name": "381 CVEs",
-                  "size": 381
+                  "name": "2326 CVEs",
+                  "size": 2326
                 }
               ]
             },
@@ -85,8 +359,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "42 CVEs",
-                  "size": 42
+                  "name": "66465 CVEs",
+                  "size": 66465
                 }
               ]
             },
@@ -94,8 +368,26 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "13 CVEs",
-                  "size": 13
+                  "name": "2230 CVEs",
+                  "size": 2230
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "5 CVEs",
+                  "size": 5
+                }
+              ]
+            },
+            {
+              "name": "urgent",
+              "children": [
+                {
+                  "name": "1 CVEs",
+                  "size": 1
                 }
               ]
             }
@@ -108,8 +400,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "39 CVEs",
-                  "size": 39
+                  "name": "9955 CVEs",
+                  "size": 9955
                 }
               ]
             }
@@ -119,11 +411,20 @@
           "name": "ubuntu",
           "children": [
             {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "900 CVEs",
+                  "size": 900
+                }
+              ]
+            },
+            {
               "name": "high",
               "children": [
                 {
-                  "name": "945 CVEs",
-                  "size": 945
+                  "name": "15508 CVEs",
+                  "size": 15508
                 }
               ]
             },
@@ -131,8 +432,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "13 CVEs",
-                  "size": 13
+                  "name": "318699 CVEs",
+                  "size": 318699
                 }
               ]
             },
@@ -140,8 +441,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "5 CVEs",
-                  "size": 5
+                  "name": "14196 CVEs",
+                  "size": 14196
                 }
               ]
             }
@@ -159,8 +460,8 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "5 CVEs",
-                  "size": 5
+                  "name": "80 CVEs",
+                  "size": 80
                 }
               ]
             },
@@ -168,8 +469,8 @@
               "name": "emergency",
               "children": [
                 {
-                  "name": "2 CVEs",
-                  "size": 2
+                  "name": "19 CVEs",
+                  "size": 19
                 }
               ]
             },
@@ -177,8 +478,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "1406 CVEs",
-                  "size": 1406
+                  "name": "6033 CVEs",
+                  "size": 6033
                 }
               ]
             },
@@ -186,8 +487,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "318 CVEs",
-                  "size": 318
+                  "name": "70751 CVEs",
+                  "size": 70751
                 }
               ]
             },
@@ -195,8 +496,17 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "101 CVEs",
-                  "size": 101
+                  "name": "5780 CVEs",
+                  "size": 5780
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "1 CVEs",
+                  "size": 1
                 }
               ]
             }
@@ -209,8 +519,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "101 CVEs",
-                  "size": 101
+                  "name": "12454 CVEs",
+                  "size": 12454
                 }
               ]
             }
@@ -223,8 +533,17 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "84 CVEs",
-                  "size": 84
+                  "name": "396 CVEs",
+                  "size": 396
+                }
+              ]
+            },
+            {
+              "name": "emergency",
+              "children": [
+                {
+                  "name": "29 CVEs",
+                  "size": 29
                 }
               ]
             },
@@ -232,8 +551,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "7975 CVEs",
-                  "size": 7975
+                  "name": "41383 CVEs",
+                  "size": 41383
                 }
               ]
             },
@@ -241,8 +560,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "3346 CVEs",
-                  "size": 3346
+                  "name": "412431 CVEs",
+                  "size": 412431
                 }
               ]
             },
@@ -250,8 +569,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "661 CVEs",
-                  "size": 661
+                  "name": "36052 CVEs",
+                  "size": 36052
                 }
               ]
             }
@@ -269,8 +588,17 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "144 CVEs",
-                  "size": 144
+                  "name": "179 CVEs",
+                  "size": 179
+                }
+              ]
+            },
+            {
+              "name": "emergency",
+              "children": [
+                {
+                  "name": "4 CVEs",
+                  "size": 4
                 }
               ]
             },
@@ -278,8 +606,17 @@
               "name": "high",
               "children": [
                 {
-                  "name": "2874 CVEs",
-                  "size": 2874
+                  "name": "6711 CVEs",
+                  "size": 6711
+                }
+              ]
+            },
+            {
+              "name": "lo",
+              "children": [
+                {
+                  "name": "2 CVEs",
+                  "size": 2
                 }
               ]
             },
@@ -287,8 +624,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1035 CVEs",
-                  "size": 1035
+                  "name": "65741 CVEs",
+                  "size": 65741
                 }
               ]
             },
@@ -296,8 +633,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "177 CVEs",
-                  "size": 177
+                  "name": "3637 CVEs",
+                  "size": 3637
                 }
               ]
             }
@@ -310,8 +647,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "137 CVEs",
-                  "size": 137
+                  "name": "17688 CVEs",
+                  "size": 17688
                 }
               ]
             }
@@ -324,8 +661,17 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "754 CVEs",
-                  "size": 754
+                  "name": "975 CVEs",
+                  "size": 975
+                }
+              ]
+            },
+            {
+              "name": "emergency",
+              "children": [
+                {
+                  "name": "11 CVEs",
+                  "size": 11
                 }
               ]
             },
@@ -333,8 +679,17 @@
               "name": "high",
               "children": [
                 {
-                  "name": "16330 CVEs",
-                  "size": 16330
+                  "name": "41630 CVEs",
+                  "size": 41630
+                }
+              ]
+            },
+            {
+              "name": "lo",
+              "children": [
+                {
+                  "name": "4 CVEs",
+                  "size": 4
                 }
               ]
             },
@@ -342,8 +697,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "9951 CVEs",
-                  "size": 9951
+                  "name": "525919 CVEs",
+                  "size": 525919
                 }
               ]
             },
@@ -351,8 +706,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "1406 CVEs",
-                  "size": 1406
+                  "name": "21537 CVEs",
+                  "size": 21537
                 }
               ]
             }
@@ -370,8 +725,17 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "568 CVEs",
-                  "size": 568
+                  "name": "619 CVEs",
+                  "size": 619
+                }
+              ]
+            },
+            {
+              "name": "emergency",
+              "children": [
+                {
+                  "name": "20 CVEs",
+                  "size": 20
                 }
               ]
             },
@@ -379,8 +743,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "2916 CVEs",
-                  "size": 2916
+                  "name": "6023 CVEs",
+                  "size": 6023
                 }
               ]
             },
@@ -388,8 +752,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1560 CVEs",
-                  "size": 1560
+                  "name": "70405 CVEs",
+                  "size": 70405
                 }
               ]
             },
@@ -397,8 +761,26 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "313 CVEs",
-                  "size": 313
+                  "name": "4497 CVEs",
+                  "size": 4497
+                }
+              ]
+            },
+            {
+              "name": "normal",
+              "children": [
+                {
+                  "name": "3 CVEs",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "1 CVEs",
+                  "size": 1
                 }
               ]
             }
@@ -411,8 +793,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "148 CVEs",
-                  "size": 148
+                  "name": "29539 CVEs",
+                  "size": 29539
                 }
               ]
             }
@@ -425,8 +807,17 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "2317 CVEs",
-                  "size": 2317
+                  "name": "2506 CVEs",
+                  "size": 2506
+                }
+              ]
+            },
+            {
+              "name": "emergency",
+              "children": [
+                {
+                  "name": "115 CVEs",
+                  "size": 115
                 }
               ]
             },
@@ -434,8 +825,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "16352 CVEs",
-                  "size": 16352
+                  "name": "34586 CVEs",
+                  "size": 34586
                 }
               ]
             },
@@ -443,8 +834,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "22417 CVEs",
-                  "size": 22417
+                  "name": "657523 CVEs",
+                  "size": 657523
                 }
               ]
             },
@@ -452,8 +843,17 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "4445 CVEs",
-                  "size": 4445
+                  "name": "30437 CVEs",
+                  "size": 30437
+                }
+              ]
+            },
+            {
+              "name": "normal",
+              "children": [
+                {
+                  "name": "4 CVEs",
+                  "size": 4
                 }
               ]
             }
@@ -471,8 +871,8 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "155 CVEs",
-                  "size": 155
+                  "name": "161 CVEs",
+                  "size": 161
                 }
               ]
             },
@@ -480,8 +880,8 @@
               "name": "emergency",
               "children": [
                 {
-                  "name": "62 CVEs",
-                  "size": 62
+                  "name": "74 CVEs",
+                  "size": 74
                 }
               ]
             },
@@ -489,8 +889,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "2273 CVEs",
-                  "size": 2273
+                  "name": "4158 CVEs",
+                  "size": 4158
                 }
               ]
             },
@@ -498,8 +898,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1475 CVEs",
-                  "size": 1475
+                  "name": "58226 CVEs",
+                  "size": 58226
                 }
               ]
             },
@@ -507,8 +907,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "216 CVEs",
-                  "size": 216
+                  "name": "2032 CVEs",
+                  "size": 2032
                 }
               ]
             }
@@ -521,8 +921,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "210 CVEs",
-                  "size": 210
+                  "name": "29755 CVEs",
+                  "size": 29755
                 }
               ]
             }
@@ -535,8 +935,8 @@
               "name": "emergency",
               "children": [
                 {
-                  "name": "565 CVEs",
-                  "size": 565
+                  "name": "660 CVEs",
+                  "size": 660
                 }
               ]
             },
@@ -544,8 +944,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "16609 CVEs",
-                  "size": 16609
+                  "name": "32516 CVEs",
+                  "size": 32516
                 }
               ]
             },
@@ -553,8 +953,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "13991 CVEs",
-                  "size": 13991
+                  "name": "692380 CVEs",
+                  "size": 692380
                 }
               ]
             },
@@ -562,8 +962,17 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "3039 CVEs",
-                  "size": 3039
+                  "name": "15551 CVEs",
+                  "size": 15551
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "17 CVEs",
+                  "size": 17
                 }
               ]
             }
@@ -581,8 +990,8 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "165 CVEs",
-                  "size": 165
+                  "name": "187 CVEs",
+                  "size": 187
                 }
               ]
             },
@@ -599,8 +1008,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "1928 CVEs",
-                  "size": 1928
+                  "name": "3735 CVEs",
+                  "size": 3735
                 }
               ]
             },
@@ -608,8 +1017,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1667 CVEs",
-                  "size": 1667
+                  "name": "61685 CVEs",
+                  "size": 61685
                 }
               ]
             },
@@ -617,8 +1026,26 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "216 CVEs",
-                  "size": 216
+                  "name": "2894 CVEs",
+                  "size": 2894
+                }
+              ]
+            },
+            {
+              "name": "normal",
+              "children": [
+                {
+                  "name": "2 CVEs",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "1 CVEs",
+                  "size": 1
                 }
               ]
             }
@@ -631,8 +1058,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "239 CVEs",
-                  "size": 239
+                  "name": "39060 CVEs",
+                  "size": 39060
                 }
               ]
             }
@@ -645,8 +1072,8 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "6 CVEs",
-                  "size": 6
+                  "name": "169 CVEs",
+                  "size": 169
                 }
               ]
             },
@@ -654,8 +1081,8 @@
               "name": "emergency",
               "children": [
                 {
-                  "name": "203 CVEs",
-                  "size": 203
+                  "name": "205 CVEs",
+                  "size": 205
                 }
               ]
             },
@@ -663,8 +1090,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "12575 CVEs",
-                  "size": 12575
+                  "name": "25268 CVEs",
+                  "size": 25268
                 }
               ]
             },
@@ -672,8 +1099,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "29279 CVEs",
-                  "size": 29279
+                  "name": "940555 CVEs",
+                  "size": 940555
                 }
               ]
             },
@@ -681,8 +1108,26 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "1865 CVEs",
-                  "size": 1865
+                  "name": "18321 CVEs",
+                  "size": 18321
+                }
+              ]
+            },
+            {
+              "name": "normal",
+              "children": [
+                {
+                  "name": "17 CVEs",
+                  "size": 17
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "21 CVEs",
+                  "size": 21
                 }
               ]
             }
@@ -709,8 +1154,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "1859 CVEs",
-                  "size": 1859
+                  "name": "2758 CVEs",
+                  "size": 2758
                 }
               ]
             },
@@ -718,8 +1163,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1459 CVEs",
-                  "size": 1459
+                  "name": "62842 CVEs",
+                  "size": 62842
                 }
               ]
             },
@@ -727,8 +1172,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "254 CVEs",
-                  "size": 254
+                  "name": "1243 CVEs",
+                  "size": 1243
                 }
               ]
             }
@@ -741,8 +1186,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "381 CVEs",
-                  "size": 381
+                  "name": "56170 CVEs",
+                  "size": 56170
                 }
               ]
             }
@@ -755,8 +1200,8 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "81 CVEs",
-                  "size": 81
+                  "name": "83 CVEs",
+                  "size": 83
                 }
               ]
             },
@@ -764,8 +1209,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "8850 CVEs",
-                  "size": 8850
+                  "name": "15810 CVEs",
+                  "size": 15810
                 }
               ]
             },
@@ -773,8 +1218,17 @@
               "name": "low",
               "children": [
                 {
-                  "name": "53728 CVEs",
-                  "size": 53728
+                  "name": "1086180 CVEs",
+                  "size": 1086180
+                }
+              ]
+            },
+            {
+              "name": "lown",
+              "children": [
+                {
+                  "name": "2 CVEs",
+                  "size": 2
                 }
               ]
             },
@@ -782,8 +1236,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "1291 CVEs",
-                  "size": 1291
+                  "name": "11130 CVEs",
+                  "size": 11130
                 }
               ]
             },
@@ -807,11 +1261,20 @@
           "name": "debian",
           "children": [
             {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "2 CVEs",
+                  "size": 2
+                }
+              ]
+            },
+            {
               "name": "emergency",
               "children": [
                 {
-                  "name": "8 CVEs",
-                  "size": 8
+                  "name": "11 CVEs",
+                  "size": 11
                 }
               ]
             },
@@ -819,8 +1282,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "1699 CVEs",
-                  "size": 1699
+                  "name": "2668 CVEs",
+                  "size": 2668
                 }
               ]
             },
@@ -828,8 +1291,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1752 CVEs",
-                  "size": 1752
+                  "name": "49821 CVEs",
+                  "size": 49821
                 }
               ]
             },
@@ -837,8 +1300,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "207 CVEs",
-                  "size": 207
+                  "name": "1491 CVEs",
+                  "size": 1491
                 }
               ]
             }
@@ -851,8 +1314,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "588 CVEs",
-                  "size": 588
+                  "name": "41078 CVEs",
+                  "size": 41078
                 }
               ]
             }
@@ -862,11 +1325,20 @@
           "name": "ubuntu",
           "children": [
             {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "4 CVEs",
+                  "size": 4
+                }
+              ]
+            },
+            {
               "name": "emergency",
               "children": [
                 {
-                  "name": "45 CVEs",
-                  "size": 45
+                  "name": "358 CVEs",
+                  "size": 358
                 }
               ]
             },
@@ -874,8 +1346,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "5668 CVEs",
-                  "size": 5668
+                  "name": "16363 CVEs",
+                  "size": 16363
                 }
               ]
             },
@@ -883,8 +1355,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "102053 CVEs",
-                  "size": 102053
+                  "name": "1116672 CVEs",
+                  "size": 1116672
                 }
               ]
             },
@@ -892,8 +1364,17 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "1769 CVEs",
-                  "size": 1769
+                  "name": "9146 CVEs",
+                  "size": 9146
+                }
+              ]
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "52 CVEs",
+                  "size": 52
                 }
               ]
             }
@@ -908,11 +1389,29 @@
           "name": "debian",
           "children": [
             {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "2 CVEs",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "emergency",
+              "children": [
+                {
+                  "name": "1 CVEs",
+                  "size": 1
+                }
+              ]
+            },
+            {
               "name": "high",
               "children": [
                 {
-                  "name": "1306 CVEs",
-                  "size": 1306
+                  "name": "1779 CVEs",
+                  "size": 1779
                 }
               ]
             },
@@ -920,8 +1419,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1339 CVEs",
-                  "size": 1339
+                  "name": "34626 CVEs",
+                  "size": 34626
                 }
               ]
             },
@@ -929,8 +1428,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "173 CVEs",
-                  "size": 173
+                  "name": "590 CVEs",
+                  "size": 590
                 }
               ]
             }
@@ -943,8 +1442,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "653 CVEs",
-                  "size": 653
+                  "name": "48461 CVEs",
+                  "size": 48461
                 }
               ]
             }
@@ -954,11 +1453,29 @@
           "name": "ubuntu",
           "children": [
             {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "268 CVEs",
+                  "size": 268
+                }
+              ]
+            },
+            {
+              "name": "emergency",
+              "children": [
+                {
+                  "name": "2 CVEs",
+                  "size": 2
+                }
+              ]
+            },
+            {
               "name": "high",
               "children": [
                 {
-                  "name": "16851 CVEs",
-                  "size": 16851
+                  "name": "21562 CVEs",
+                  "size": 21562
                 }
               ]
             },
@@ -966,8 +1483,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "79488 CVEs",
-                  "size": 79488
+                  "name": "739360 CVEs",
+                  "size": 739360
                 }
               ]
             },
@@ -975,8 +1492,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "741 CVEs",
-                  "size": 741
+                  "name": "5542 CVEs",
+                  "size": 5542
                 }
               ]
             }
@@ -994,8 +1511,8 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "1 CVEs",
-                  "size": 1
+                  "name": "2 CVEs",
+                  "size": 2
                 }
               ]
             },
@@ -1003,8 +1520,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "1204 CVEs",
-                  "size": 1204
+                  "name": "1581 CVEs",
+                  "size": 1581
                 }
               ]
             },
@@ -1012,8 +1529,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1793 CVEs",
-                  "size": 1793
+                  "name": "25182 CVEs",
+                  "size": 25182
                 }
               ]
             },
@@ -1021,8 +1538,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "289 CVEs",
-                  "size": 289
+                  "name": "727 CVEs",
+                  "size": 727
                 }
               ]
             }
@@ -1035,8 +1552,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "689 CVEs",
-                  "size": 689
+                  "name": "68176 CVEs",
+                  "size": 68176
                 }
               ]
             }
@@ -1049,8 +1566,8 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "15 CVEs",
-                  "size": 15
+                  "name": "228 CVEs",
+                  "size": 228
                 }
               ]
             },
@@ -1067,8 +1584,17 @@
               "name": "high",
               "children": [
                 {
-                  "name": "5194 CVEs",
-                  "size": 5194
+                  "name": "11449 CVEs",
+                  "size": 11449
+                }
+              ]
+            },
+            {
+              "name": "lo",
+              "children": [
+                {
+                  "name": "1 CVEs",
+                  "size": 1
                 }
               ]
             },
@@ -1076,8 +1602,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "62671 CVEs",
-                  "size": 62671
+                  "name": "570526 CVEs",
+                  "size": 570526
                 }
               ]
             },
@@ -1085,8 +1611,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "2824 CVEs",
-                  "size": 2824
+                  "name": "6285 CVEs",
+                  "size": 6285
                 }
               ]
             }
@@ -1113,8 +1639,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "1445 CVEs",
-                  "size": 1445
+                  "name": "1626 CVEs",
+                  "size": 1626
                 }
               ]
             },
@@ -1122,8 +1648,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "1386 CVEs",
-                  "size": 1386
+                  "name": "3166 CVEs",
+                  "size": 3166
                 }
               ]
             },
@@ -1131,8 +1657,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "217 CVEs",
-                  "size": 217
+                  "name": "367 CVEs",
+                  "size": 367
                 }
               ]
             }
@@ -1145,8 +1671,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "861 CVEs",
-                  "size": 861
+                  "name": "73000 CVEs",
+                  "size": 73000
                 }
               ]
             }
@@ -1159,8 +1685,8 @@
               "name": "critical",
               "children": [
                 {
-                  "name": "9 CVEs",
-                  "size": 9
+                  "name": "13 CVEs",
+                  "size": 13
                 }
               ]
             },
@@ -1177,8 +1703,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "12042 CVEs",
-                  "size": 12042
+                  "name": "24881 CVEs",
+                  "size": 24881
                 }
               ]
             },
@@ -1186,8 +1712,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "51109 CVEs",
-                  "size": 51109
+                  "name": "368984 CVEs",
+                  "size": 368984
                 }
               ]
             },
@@ -1195,8 +1721,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "3065 CVEs",
-                  "size": 3065
+                  "name": "8375 CVEs",
+                  "size": 8375
                 }
               ]
             }
@@ -1214,8 +1740,8 @@
               "name": "high",
               "children": [
                 {
-                  "name": "741 CVEs",
-                  "size": 741
+                  "name": "800 CVEs",
+                  "size": 800
                 }
               ]
             },
@@ -1223,8 +1749,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "92 CVEs",
-                  "size": 92
+                  "name": "309 CVEs",
+                  "size": 309
                 }
               ]
             },
@@ -1232,8 +1758,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "372 CVEs",
-                  "size": 372
+                  "name": "952 CVEs",
+                  "size": 952
                 }
               ]
             }
@@ -1246,8 +1772,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "870 CVEs",
-                  "size": 870
+                  "name": "23452 CVEs",
+                  "size": 23452
                 }
               ]
             }
@@ -1257,11 +1783,20 @@
           "name": "ubuntu",
           "children": [
             {
+              "name": "critical",
+              "children": [
+                {
+                  "name": "5 CVEs",
+                  "size": 5
+                }
+              ]
+            },
+            {
               "name": "high",
               "children": [
                 {
-                  "name": "2164 CVEs",
-                  "size": 2164
+                  "name": "5753 CVEs",
+                  "size": 5753
                 }
               ]
             },
@@ -1269,8 +1804,8 @@
               "name": "low",
               "children": [
                 {
-                  "name": "8177 CVEs",
-                  "size": 8177
+                  "name": "63435 CVEs",
+                  "size": 63435
                 }
               ]
             },
@@ -1278,8 +1813,8 @@
               "name": "medium",
               "children": [
                 {
-                  "name": "4269 CVEs",
-                  "size": 4269
+                  "name": "51977 CVEs",
+                  "size": 51977
                 }
               ]
             }
@@ -1297,8 +1832,8 @@
               "name": "unknown",
               "children": [
                 {
-                  "name": "172 CVEs",
-                  "size": 172
+                  "name": "3733 CVEs",
+                  "size": 3733
                 }
               ]
             }
