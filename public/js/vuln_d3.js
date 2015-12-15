@@ -1,8 +1,8 @@
 var dataFile = "/static/js/data.json";
 
 var width = 960,
-    height = 960,
-    radius = Math.min(width, height) / 2;
+    height = 800,
+    radius = Math.min(width, height) / 2.2;
 
 var x = d3.scale.linear()
     .range([0, 2 * Math.PI]);
